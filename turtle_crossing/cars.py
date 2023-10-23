@@ -11,7 +11,7 @@ class Cars():
         self.cars_list = []
 
     def create_cars(self):
-        rand_y = randrange(-180, 200, 50)
+        rand_y = randrange(-180, 200, 60)
         self.car = Turtle('square')
         self.car.penup()
         self.car.shapesize(stretch_wid=1, stretch_len=2)
